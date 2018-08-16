@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.durga.studybuddy.Notes">
+
+
+
+    <EditText
+        android:id="@+id/editText_notes"
+        android:gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="222dp"
+        android:ems="10"
+        android:hint="write your notes here"
+        android:inputType="textMultiLine" />
+
+    <TextView
+        android:id="@+id/textView_notes_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3.88"
+        android:text="It will be displayed here"
+        />
+
+    <Button
+        android:id="@+id/button_save"
+        android:background="@drawable/cell_shape"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:text="save" />
+    <Button
+        android:id="@+id/button_pdf"
+       android:background="@drawable/cell_shape"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="Upload Files" />
+
+
+    <TextView
+        android:id="@+id/textViewpdf_path"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:text="pdf will be displayed here "
+        android:layout_weight="2.02" />
+
+</LinearLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.durga.studybuddy.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        app:srcCompat="@drawable/pict" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/button_notes"
+            android:paddingLeft="30dp"
+            android:paddingTop="50dp"
+            android:layout_width="106dp"
+            android:layout_height="81dp"
+            android:background="@drawable/notepad"
+            />
+
+        <ImageButton
+            android:id="@+id/button_timetable"
+            android:layout_width="match_parent"
+            android:layout_height="81dp"
+            android:background="@drawable/timetable" />
+
+        <ImageButton
+            android:id="@+id/button_schedule"
+            android:layout_width="147dp"
+            android:layout_height="81dp"
+            android:background="@drawable/schedule" />
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal" >
+       <TextView
+        android:id="@+id/textView6"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:text="Notes"
+        android:textColor="#000"
+        android:gravity="center"
+        android:paddingLeft="15dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="64dp"
+        android:text="Timetable"
+        android:textColor="#000" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="70dp"
+        android:text="Schedule"
+        android:textColor="#000" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+    <ImageButton
+        android:id="@+id/button_Expense_planner"
+        android:paddingLeft="30dp"
+        android:paddingTop="50dp"
+        android:layout_width="106dp"
+        android:layout_height="81dp"
+        android:background="@drawable/money"
+        />
+        <ImageButton
+            android:id="@+id/button_Teachers_info"
+            android:paddingLeft="30dp"
+            android:paddingTop="50dp"
+            android:layout_width="106dp"
+            android:layout_height="81dp"
+            android:background="@drawable/teacher"
+            />
+
+        <ImageButton
+            android:id="@+id/button_Academic_calendar"
+            android:paddingLeft="30dp"
+            android:paddingTop="50dp"
+            android:layout_width="134dp"
+            android:layout_height="81dp"
+            android:background="@drawable/calendar"
+            />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="0dp"
+        android:text="Expenses Planner"
+        android:textColor="#000" />
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="15dp"
+        android:text="Teacher's Info"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/textView111"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:text="Academic Calendar"
+        android:textColor="#000" />
+</LinearLayout>
+</LinearLayout>

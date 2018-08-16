@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">StudyBuddy</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="about">Pune Institute of Computer Technology, (or PICT) (Bharti cha magcha college). is a private unaided engineering college located in Dhankawadi, Pune, India. Established by the Society for Computer Technology and Research, SCTR in 1983. It offers degrees in Computer Engineering, Information Technology and Electronics and Telecommunication Engineering.The Bachelor of Engineering Program in Computer Engineering commenced from the academic year 1983-84.The Department is known for its excellent results and student placements. There are 10 wellequipped laboratories in the department.The Department has been pioneered as the first Post Graduate Department in Computer Engineering in the unaided Engineering Colleges in University of Pune; with first batch commencing in year 2000. There are two shifts in this program, each consisting of 120 students.This program also consists of two shifts, consisting of 1800 students in first shift and 60 students in second shift. Established in 1995, this department has a lab with around 25 Texas and Motorola experimental kits. The ETC department has won the “Best Department Award” in 2003 and 2004. In 2009 2010, the ETC department had the highest MHTCET cutoff in University of Pune of 178/200</string>
+    <string name="action_settings">Settings</string>
+</resources>

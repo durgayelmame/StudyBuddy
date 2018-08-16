@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.durga.studybuddy.expensePlanner">
+
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Budget"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="25dp"
+        android:textSize="18dp"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+
+    <TextView
+        android:id="@+id/textView144"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="25dp"
+        android:textSize="18dp"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+
+        <Button
+            android:id="@+id/button_add_item"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/cell_shape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Add Item" />
+        <Button
+            android:id="@+id/button_delete_item"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/cell_shape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Delete Item" />
+        <Button
+            android:id="@+id/button_Reset"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/cell_shape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Reset" />
+
+
+
+
+        <TextView
+            android:id="@+id/textView111"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:textSize="18dp"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Money Left"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="16dp" />
+        <TextView
+            android:id="@+id/textView_money_left"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="44.61" />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+
+    <EditText
+        android:id="@+id/editText_total_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Enter amount "
+        tools:layout_editor_absoluteX="116dp"></EditText>
+        <EditText
+            android:id="@+id/editText_item_name"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Item name" />
+
+        <EditText
+            android:id="@+id/editText_Item_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="Enter price "
+            tools:layout_editor_absoluteX="116dp"></EditText>
+
+        <TextView
+        android:id="@+id/textView_budget_list"
+        android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Displayed here"
+        android:layout_weight="44.61" />
+
+
+</LinearLayout>
+</LinearLayout>

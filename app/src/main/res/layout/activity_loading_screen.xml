@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#c7abf4"
+
+    tools:context="com.example.durga.studybuddy.LoadingScreen"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="134dp"
+        android:layout_height="106dp"
+        app:srcCompat="@drawable/emoji1" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textColor="#ffffff"
+        android:textStyle="italic"
+        android:textSize="40dp"
+        android:layout_weight="0.06" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:text="To"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textStyle="italic"
+        android:textSize="40dp"
+        android:layout_weight="0.06" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:text="StudyBuddy....."
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textStyle="italic"
+        android:textSize="40dp"
+        android:layout_weight="0.06" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="By Durga Yelmame"
+        android:textSize="19dp"
+        android:textColor="#ffffff"/>
+</LinearLayout>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.durga.studybuddy.LoginPage">
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            >
+            <LinearLayout
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:id="@+id/textView_upload_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="To upload photo click on image" />
+
+                <ImageButton
+                    android:id="@+id/button_for_image_lp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+
+                    android:background="@drawable/imagelogo"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_horizontal"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+
+                    >
+
+                    <LinearLayout
+                        android:id="@+id/edit_linaer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:id="@+id/textView_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Enter name :"
+                            android:textSize="19dp" />
+
+                        <EditText
+                            android:id="@+id/lp_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:background="@drawable/edittext_border"
+                            android:drawablePadding="5dp"
+                            android:hint="Name"
+                            android:inputType="text"
+                            android:paddingLeft="10dp"
+                            android:textColor="@color/textcolour"
+                            android:textColorHint="@color/textcolour" />
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView_course"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Course :"
+                        android:textSize="19dp" />
+
+                    <Spinner
+                        android:id="@+id/spinner_course"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+
+
+                    <TextView
+                        android:id="@+id/textView_semester"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Semester :"
+                        android:textSize="19dp" />
+
+                    <Spinner
+                        android:id="@+id/spinner_Semester"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:id="@+id/textView_class"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Class :"
+                        android:textSize="19dp" />
+
+                    <Spinner
+                        android:id="@+id/spinner_class"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <Button
+                        android:id="@+id/button_login_lp"
+                       android:layout_gravity="center"
+                        android:layout_width="131dp"
+                        android:layout_height="36dp"
+                        android:background="@drawable/cell_shape_main"
+                        android:text="Login" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
